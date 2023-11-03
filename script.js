@@ -116,8 +116,6 @@
 // })(["dad","mom","data","121","233"]);
 
 // f.Return median of two sorted arrays of the same size using anonymous function:-
-
-
 let f=function(arr1,arr2){
 let arr3=[...arr1,...arr2];
 arr3.sort((a,b)=>a-b);
